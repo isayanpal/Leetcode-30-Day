@@ -1,3 +1,6 @@
+
+import java.util.HashSet;
+
 // Brute force solution
 class Solution {
     public boolean containsDuplicate(int[] nums){
@@ -13,7 +16,7 @@ class Solution {
 }
 
 // Using HashSet
-class Solution {
+class Solution2 {
     public  boolean containsDuplicate(int[] nums){
         HashSet<Integer> set = new HashSet<>();
 

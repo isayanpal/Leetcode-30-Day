@@ -1,4 +1,7 @@
 
+
+import java.util.HashMap;
+
 // Brute force solution
 class Solution {
     public boolean isAnagram(String s, String t){
@@ -26,7 +29,7 @@ class Solution {
 }
 
 // HashMap solution
-class Solution {
+class Solution2 {
     public boolean isAnagram(String s, String t){
         if(s.length() != t.length()){
             return false;

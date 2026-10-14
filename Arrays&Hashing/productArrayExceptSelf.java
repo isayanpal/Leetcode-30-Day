@@ -19,7 +19,7 @@ class Solution {
 
 
 // Prefix Suffix
-class Solution {
+class Solution2 {
     public int[] productExceptSelf(int[] nums){
 
         int n = nums.length;
@@ -29,7 +29,7 @@ class Solution {
 
         for(int i = 0; i < n; i++){
             res[i] = pre;
-            pre *= nums[i]
+            pre *= nums[i];
         }
 
         int suf = 1;
